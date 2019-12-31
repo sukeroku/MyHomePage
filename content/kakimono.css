@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* 設定 */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    font-family: Raleway, "Hiragino Kaku Gothic ProN",  Meiryo,  sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+/* メイン */
+img {
+    margin-bottom: -250px;
+}
+
+@media screen and (max-width: 1024px) {
+    .kpuji {
+        margin-bottom: 0px;
+        height: 250px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .kouji {
+        margin-bottom: 100px;
+        height: 1000px;
+        width: 1024px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    main {
+        margin: 0 900px 0 0;
+        width: 10px;
+    }
+
+    img {
+        margin: 0 900px 0 0;
+        width: 10px;
+        height: 100px;
+    }
+}
+
+/* フッター */
+.foot {
+    position: relative;
+    z-index: 1;
+    margin-bottom: -1px;
+    background-color: #000;
+}
+
+@media screen and (max-width: 1024px) {
+    .foot {
+        width: 1024px;
+        height: 550px;
+    }
+
+    .foot a p {
+        font-size: 150px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .foot {
+        height: 570px;
+    }
+    
+    .foot a p {
+        font-size: 150px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .foot {
+        height: 100px;
+        width: 400px;
+    }
+
+    .foot a p {
+        font-size: 40px;
+    }
+}
+
+.foot a:visited {
+    color: #f00;
+}
+
+
+.foot:hover {
+    background-color: #333;
+}
+
+.foot p {
+    font-size: 100px;
+}
+
+.foot p:hover {
+    color: #f88;
+}

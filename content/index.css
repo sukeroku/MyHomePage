@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* 初期設定 */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    background-color: #000;
+    font-family: Raleway, "Hiragino Kaku Gothic ProN",  Meiryo,  sans-serif;
+}
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+content: "";
+display: block;
+clear: both;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+/* メイン */
+.said_1 {
+    float: left; 
+    width: 60%;
+}
+
+@media screen and (max-width: 1024px) {
+    .said_1 {
+        float: none;
+        width: 100%;
+    }
+}
+
+.said_1 .apple {
+    height: 1900px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .said_1 .apple {
+        height: 900px;
+    }
+}
+
+.said_menu .section_main {
+    width: 100%;
+    overflow: auto;
+    max-height: 900px;
+    border: 6px solid #000;
+}
+
+.section_main .text {
+    overflow: hidden; 
+    font-size: 27.3px;
+    line-height: normal;
+    text-shadow: 1px 1px #f00, -1px 1px #f00,
+    1px -1px #f00, -1px -1px #f00;
+    background-image: url(../images/toph800.jpg);
+    position: contain;
+    background-repeat: repeat-y;
+}
+
+@media screen and (max-width: 1024px) {
+    .section_main .text {
+        background-image: url(../images/toph_tab_top.jpg);
+        font-size: 27px;
+    }
+}
+
+@media screen  and (max-width: 414px) {
+    .section_main .text {
+        background-image: url(../images/toph414.jpg);
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .section_main .text {
+        background-image: url(../images/toph375.jpg);
+        font-size: 20px;
+    }
+}
+
+.section_main .text .link:hover {
+    opacity: 0.5;
+}
+
+.text {
+    background-color: rgba(204,205,204,0.9);
+    border-radius: 10px;
+}
+
+.said_2{
+    float: right;
+    width: 40%;
+}
+
+@media screen and (max-width: 1024px) {
+    .said_2 {
+        float: none;
+        width: 100%;
+        height: 30%;
+    }
+}
+
+.said_2 .text .link:hover {
+    text-decoration: underline;
+}
+
+.said_2 .rat {
+    width: 100%;
+    height: 1000px;
+    
+}
+
+/* フッター */
+footer {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    font-weight: bold;
+}
+
+.foot {
+    text-align: center;
+    color: #fff
+}

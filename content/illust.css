@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* 最初の設定 */
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    font-family: Raleway, "Hiragino Kaku Gothic ProN",  Meiryo,  sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+/* メイン */
+.illust {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .illust p {
+        font-size: 25px;
+    }
+    .illust .side {
+        height: auto;
+    }
+}
+
+
+.illust .icon_img {
+    width: 70%;
+    height: auto;
+    cursor: zoom-in;
+}
+
+.illust .side {
+    width: 100%;
+}
+
+.center {
+    cursor: zoom-out;
+}
+
+.center .icon_img{
+    cursor: zoom-out;
+}
+
+.center .black {
+    background: #000000;
+}
+
+
+/* フッター */
+.foot {
+    margin-top: 50px;
+}
+
+.foot .return {
+    display: inline-block;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #f00;
+    background-color: rgb(179 ,179 ,179);
+    border-radius: 45px;
+}
+
+.foot .return:hover {
+    color: #fff;
+}

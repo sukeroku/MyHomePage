@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* 最初の設定 */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    font-family: Raleway, "Hiragino Kaku Gothic ProN",  Meiryo,  sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+/* メイン */
+.wrapper {
+    background-image: url(../images/ジバニャン.jpg);
+    background-size: contain;
+}
+
+.main_text {
+    padding: 400px;
+}
+
+.main_text p {
+    font-size: 50px;
+    margin: 0 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px #000, -1px 1px #000,
+    1px -1px #000, -1px -1px #000;
+    color: #f00;
+}
+
+@media screen and (max-width: 768px) {
+    .main_text {
+        padding: 200px 0 133px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .main_text {
+        padding: 40px;
+    }
+
+    .main_text p {
+        font-size: 22px;
+        margin: 10px; 
+        font-weight: bold;
+        text-shadow: 1px 1px #000, -1px 1px #000,
+        1px -1px #000, -1px -1px #000;
+        color: #f00;
+    }
+}
+
+/* フッター */
+.foot {
+    margin-top: 50px;
+    background-color: #000;
+}
+
+.return {
+    display: inline-block;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #f00;
+    background-color: rgb(179, 179, 179);
+    border-radius: 45px;
+}
+
+.return:hover {
+    color: #fff;
+}
