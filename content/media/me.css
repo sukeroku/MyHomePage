@@ -16,31 +16,17 @@ a:link, a:visited, a:hover, a:active {
     text-decoration: none;
 }
 
-/* メイン */
-img {
-    margin-bottom: -250px;
+/* iPadPro */
+.main_text {
+    padding: 338px 0px;
 }
 
-/* フッター */
-.foot {
-    position: relative;
-    z-index: 1;
-    margin-bottom: -1px;
-    background-color: #000;
+/* iPad */
+@media screen and (max-width:768px) {
+
+.main_text {
+    padding: 129px;
 }
 
-.foot a:visited {
-    color: #f00;
 }
 
-.foot:hover {
-    background-color: #333;
-}
-
-.foot p {
-    font-size: 100px;
-}
-
-.foot p:hover {
-    color: #f88;
-}

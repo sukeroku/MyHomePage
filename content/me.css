@@ -35,27 +35,6 @@ a:link, a:visited, a:hover, a:active {
     color: #f00;
 }
 
-@media screen and (max-width: 768px) {
-    .main_text {
-        padding: 200px 0 133px;
-    }
-}
-
-@media screen and (max-width: 414px) {
-    .main_text {
-        padding: 40px;
-    }
-
-    .main_text p {
-        font-size: 22px;
-        margin: 10px; 
-        font-weight: bold;
-        text-shadow: 1px 1px #000, -1px 1px #000,
-        1px -1px #000, -1px -1px #000;
-        color: #f00;
-    }
-}
-
 /* フッター */
 .foot {
     margin-top: 50px;

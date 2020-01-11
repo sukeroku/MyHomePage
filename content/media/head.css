@@ -1,0 +1,8 @@
+/* iPhoneX */
+
+@media screen and (max-width:414px) {
+
+    .header {
+        background-image: url(../../images/banner414.jpg);
+    }
+}

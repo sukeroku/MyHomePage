@@ -26,16 +26,6 @@ a:link, a:visited, a:hover, a:active {
     grid-column-gap: 30px;
 }
 
-@media screen and (max-width: 1024px) {
-    .illust p {
-        font-size: 25px;
-    }
-    .illust .side {
-        height: auto;
-    }
-}
-
-
 .illust .icon_img {
     width: 70%;
     height: auto;
