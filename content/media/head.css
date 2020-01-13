@@ -1,7 +1,5 @@
-/* iPhoneX */
-
+/* iPhone 6/7/8 Plus*/
 @media screen and (max-width:414px) {
-
     .header {
         background-image: url(../../images/banner414.jpg);
         background-size: 414px 360px;
@@ -23,4 +21,38 @@
         box-shadow: none;
     }
 
+    .menu-list .nav-item a {
+        display: block;
+        width: 285px;
+        height: 28px;
+        border-radius: 10px;
+    }
+}
+
+/* iPhone X and iPhone 6/7/8 and Galaxy S5 */
+@media screen and (max-width:375px) {
+    .header {
+        background-size: 375px 360px;
+    }
+
+    .menu-list .nav-item a {
+        width: 245px;
+        border-radius: 10px;
+    }
+}
+
+/* Iphone 5/SE */
+@media screen and (max-width:320px) {
+    .header {
+        background-size: 320px 360px;
+    }
+
+    .menu-list .nav-item {
+        font-size: 17.47px;
+    }
+
+    .menu-list .nav-item a {
+        border-radius: 10px;
+        width: 196px;
+    }
 }
