@@ -29,7 +29,13 @@
     }
 }
 
-/* iPhone X and iPhone 6/7/8 and Galaxy S5 */
+@media screen and (max-width:411px) {
+    .menu-list .nav-item a {
+        width: 277px;
+    }
+}
+
+/* iPhone X and iPhone 6/7/8 */
 @media screen and (max-width:375px) {
     .header {
         background-size: 375px 360px;
@@ -37,6 +43,14 @@
 
     .menu-list .nav-item a {
         width: 245px;
+        border-radius: 10px;
+    }
+}
+
+/* Galaxy S5 */
+@media screen and (max-width:360px) {
+    .menu-list .nav-item a {
+        width: 225px;
         border-radius: 10px;
     }
 }

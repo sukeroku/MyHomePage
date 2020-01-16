@@ -1,4 +1,4 @@
-if (window.matchMedia('(min-width: 1024px)').matches) {
+if (window.matchMedia('(min-width: 768px)').matches) {
     $(function() {
         $('#img1').click(function() {
             $('main').toggleClass('center');
