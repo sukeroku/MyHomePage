@@ -1,5 +1,8 @@
 /* iPad Pro */
 @media screen and (max-width:1024px) {
+    main {
+        min-width: initial;
+    }
     .said_1 .apple {
         height: 100%
     }
