@@ -7,10 +7,7 @@ body {
     text-align: center;
     background-color: #000;
     font-family: Raleway, "Hiragino Kaku Gothic ProN",  Meiryo,  sans-serif;
-    min-width: 1024px;
 }
-/* bodyのmin-widthをメディアクエリに！ */
-
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -21,6 +18,10 @@ a:link, a:visited, a:hover, a:active {
 }
 
 /* メイン */
+main {
+    min-width: 1024px;
+}
+
 .said_1 {
     float: left; 
     width: 60%;
@@ -44,7 +45,7 @@ a:link, a:visited, a:hover, a:active {
     line-height: normal;
     text-shadow: 1px 1px #f00, -1px 1px #f00,
     1px -1px #f00, -1px -1px #f00;
-    background-image: url(../images/toph800.jpg);
+    background-image: url(../images/小.jpg);
     position: contain;
     background-repeat: repeat-y;
 }
@@ -86,3 +87,4 @@ footer {
     text-align: center;
     color: #fff
 }
+/* end */

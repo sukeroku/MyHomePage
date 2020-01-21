@@ -17,6 +17,10 @@ a:link, a:visited, a:hover, a:active {
 }
 
 /* メイン */
+main .kou2 {
+    display: none;
+}
+
 img {
     margin-bottom: -250px;
 }
@@ -44,3 +48,4 @@ img {
 .foot p:hover {
     color: #f88;
 }
+/* end */

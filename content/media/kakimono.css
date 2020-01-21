@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@media screen and (max-width:414px) {
+    main .kouji {
+        display: none;
+    }
+
+    main .kou2 {
+        display: block;
+        margin-bottom: -100px;
+        width: 414px;
+        height: 297px;
+    }
+
+    img {
+        margin-bottom: 0px;
+    }
+
+    .foot {
+        margin-bottom: -110px;
+    }
+
+    .foot p {
+        font-size: 77px;
+    }
+}
