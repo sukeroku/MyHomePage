@@ -21,7 +21,7 @@ a:link, a:visited, a:hover, a:active {
     background-image: url(../images/ジバニャン.jpg);
     background-size: contain;
 }
-
+/* wrapperいらん！ */
 .main_text {
     padding: 400px;
 }

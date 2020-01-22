@@ -22,11 +22,14 @@ main .kou2 {
 }
 
 img {
-    margin-bottom: -250px;
+    margin-top: 100px;
+    margin-bottom: -338px;
 }
 
 /* フッター */
 .foot {
+    padding: 1px;
+    margin-top: 300px;
     position: relative;
     z-index: 1;
     margin-bottom: -1px;

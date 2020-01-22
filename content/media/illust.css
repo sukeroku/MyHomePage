@@ -2,6 +2,14 @@
 
 @media screen and (max-width:768px) {
     .illust {
+        display: block;
+        width: 1024px;
         min-width: initial;
+    }
+}
+
+@media screen and (max-width:414px) {
+    .illust {
+        width: auto;
     }
 }

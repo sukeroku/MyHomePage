@@ -1,32 +1,31 @@
 @charset "UTF-8";
 /* 設定 */
-body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    text-align: center;
-    font-family: Raleway, "Hiragino Kaku Gothic ProN",  Meiryo,  sans-serif;
-}
+@media screen and (max-width:768px) {
+    .main_text {
+        width: 1024px;
+        padding: 0;
+        /* height: 200px; */
+    }
 
-*, *::before, *::after {
-    box-sizing: border-box;
-}
+    .main_text p {
+        margin: 0;
+        width: 1024px;
+    }
 
-a:link, a:visited, a:hover, a:active {
-    text-decoration: none;
-}
-
-/* iPadPro */
-.main_text {
-    padding: 338px 0px;
+    .foot {
+        width: 1024px;
+        padding: 1px;
+        margin-top: 30px;
+        background-color: #000;
+    }
 }
 
 /* iPad */
-@media screen and (max-width:768px) {
+/* @media screen and (max-width:768px) {
     .main_text {
         padding: 129px;
     }
-}
+} */
 
 /* iPhone 6/7/8 Plus */
 @media screen and (max-width:414px) {
