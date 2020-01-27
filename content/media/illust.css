@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
 @media screen and (max-width:768px) {
-    .illust {
-        display: block;
-        width: 1024px;
-        min-width: initial;
+ .illust {
+        /* display: block; */
+        width: auto;
+        /* min-width: initial; */
     }
 }
 

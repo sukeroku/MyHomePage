@@ -1,7 +1,11 @@
 @media screen and (max-width:768px) {
     .header {
-        width: 1024px;
+        width: auto;
         min-width: initial;
+    }
+
+    .foot {
+        width: auto;
     }
 }
 
