@@ -1,11 +1,6 @@
 @media screen and (max-width:768px) {
     .header {
-        width: auto;
-        min-width: initial;
-    }
-
-    .foot {
-        width: auto;
+        width: 100vw;
     }
 }
 
@@ -13,21 +8,13 @@
     main {
         min-width: 1024px;
     }
-    .header {
-        width: 1024px;
-    }
 }
 
 /* iPhone 6/7/8 Plus*/
 @media screen and (max-width:414px) {
-    main {
-        min-width: initial;
-    } 
-
     .header {
-        width: 414px;
         background-image: url(../../images/banner414.jpg);
-        background-size: 414px 360px;
+        background-size: 100vw;
     }
 
     .header .topchar {
@@ -48,7 +35,7 @@
 
     .menu-list .nav-item a {
         display: block;
-        width: 285px;
+        width: 100vw;
         height: 28px;
         border-radius: 10px;
     }

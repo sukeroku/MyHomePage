@@ -1,7 +1,7 @@
 /* iPad Pro */
 @media screen and (max-width:1024px) {
     main {
-        width: 1024px;
+        width: 100vw;
     }
 
     .said_1 .apple {
@@ -19,17 +19,12 @@
 
 /* iPad */
 @media screen and (max-width:768px) {
-    main {
-        min-width: initial;
-    } 
-
-
     .said_1 .apple {
-        height: 1483px;
+        position: left;
     }
 
-    .said_2 .rat {
-        height: 701px;
+    .said_2 {
+        position: right;
     }
 }
 
@@ -44,10 +39,6 @@
 
 /* iPhone 6/7/8 Plus */
 @media screen and (max-width:414px) { 
-    main {
-        min-width: initial;
-    }
-    
     .said_1 {
         width: 100%;
         float: none;
