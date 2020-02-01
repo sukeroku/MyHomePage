@@ -13,16 +13,19 @@
 /* iPhone 6/7/8 Plus*/
 @media screen and (max-width:414px) {
     .header {
+        /* width: 100vw; */
         background-image: url(../../images/banner414.jpg);
         background-size: 100vw;
     }
 
     .header .topchar {
+        width: 100vw;
         font-size: 52px;
         padding: 7px;
     }
 
     .header .menu-list {
+        width: 100vw;
         padding-right: 38px;
     }
 
@@ -35,7 +38,7 @@
 
     .menu-list .nav-item a {
         display: block;
-        width: 100vw;
+        width: auto;
         height: 28px;
         border-radius: 10px;
     }

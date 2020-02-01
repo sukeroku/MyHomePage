@@ -18,9 +18,9 @@ a:link, a:visited, a:hover, a:active {
 }
 
 /* メイン */
-main {
+/* main {
     min-width: 1024px;
-}
+} */
 
 .said_1 {
     float: left; 
