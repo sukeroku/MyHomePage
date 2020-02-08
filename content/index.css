@@ -18,30 +18,25 @@ a:link, a:visited, a:hover, a:active {
 }
 
 /* メイン */
-/* main {
-    min-width: 1024px;
-} */
-
 .said_1 {
     float: left; 
     width: 60%;
 }
 
 .said_1 .apple {
-    height: 1900px;
+    height: 120vw;
     width: 100%;
 }
 
 .said_menu .section_main {
     width: 100%;
     overflow: auto;
-    max-height: 900px;
     border: 6px solid #000;
 }
 
 .section_main .text {
     overflow: hidden; 
-    font-size: 27.3px;
+    font-size: 22px;
     line-height: normal;
     text-shadow: 1px 1px #f00, -1px 1px #f00,
     1px -1px #f00, -1px -1px #f00;
@@ -70,7 +65,7 @@ a:link, a:visited, a:hover, a:active {
 
 .said_2 .rat {
     width: 100%;
-    height: 1000px;
+    height: 64.37vw;
     
 }
 

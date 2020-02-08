@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@media screen and (max-width:1024px) {
+
+    .said_1 .apple {
+        height: 90vw;
+    }
+
+    .section_main .text {
+        height: 48.9vw;
+        overflow: scroll;
+        background-size: cover;
+        line-height: 26px;
+    }
+
+    .said_2 .rat {
+        height: 40vw;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .section_main .text {
+        height: 48.4vw;
+    }
+
+    .said_2 .rat {
+        height: 40vw;
+    }
+
+}
+
+/* ALL SmartPhone */
+@media screen and (max-width:414px) {
+    
+    .said_1, .said_2 {
+        float: none;
+        width: 100vw;
+    }
+
+    .said_1 .apple{
+        width: 100vw;
+        height: 165vw;
+    }
+
+    .section_main .text {
+        height: 30%;
+    }
+
+    .said_2 .rat {
+        width: 100vw;
+        height: 170vw;
+    }
+
+}

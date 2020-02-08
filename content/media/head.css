@@ -1,32 +1,23 @@
-@media screen and (max-width:768px) {
+@media screen and (max-width:1024px) {
     .header {
         width: 100vw;
-    }
-}
-
-@media screen and (max-width:500px) {
-    main {
-        min-width: 1024px;
     }
 }
 
 /* iPhone 6/7/8 Plus*/
 @media screen and (max-width:414px) {
     .header {
-        /* width: 100vw; */
         background-image: url(../../images/banner414.jpg);
-        background-size: 100vw;
+        background-size: cover;
     }
 
     .header .topchar {
-        width: 100vw;
         font-size: 52px;
-        padding: 7px;
+        padding: 1.5%;
     }
 
     .header .menu-list {
-        width: 100vw;
-        padding-right: 38px;
+        padding-right: 12%;
     }
 
     .menu-list .nav-item {
@@ -41,57 +32,5 @@
         width: auto;
         height: 28px;
         border-radius: 10px;
-    }
-}
-
-@media screen and (max-width:411px) {
-    .header {
-        width: 411px
-    }
-
-    .menu-list .nav-item a {
-        width: 277px;
-    }
-}
-
-/* iPhone X and iPhone 6/7/8 */
-@media screen and (max-width:375px) {
-    .header {
-        width: 375px;
-        background-size: 375px 360px;
-    }
-
-    .menu-list .nav-item a {
-        width: 245px;
-        border-radius: 10px;
-    }
-}
-
-/* Galaxy S5 */
-@media screen and (max-width:360px) {
-    .header {
-        width: 360px;
-    }
-
-    .menu-list .nav-item a {
-        width: 225px;
-        border-radius: 10px;
-    }
-}
-
-/* Iphone 5/SE */
-@media screen and (max-width:320px) {
-    .header {
-        width: 320px;
-        background-size: 320px 360px;
-    }
-
-    .menu-list .nav-item {
-        font-size: 17.47px;
-    }
-
-    .menu-list .nav-item a {
-        border-radius: 10px;
-        width: 196px;
     }
 }

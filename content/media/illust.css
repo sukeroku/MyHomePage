@@ -1,15 +1,11 @@
 @charset "UTF-8";
 
 @media screen and (max-width:768px) {
- .illust {
-        /* display: block; */
-        width: auto;
-        /* min-width: initial; */
-    }
-}
-
-@media screen and (max-width:414px) {
     .illust {
-        width: auto;
+            width: 100vw;
+        }
+
+    .illust .icon_img {
+        width: 100vw;
     }
 }

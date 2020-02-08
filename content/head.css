@@ -4,7 +4,6 @@
     border-bottom: 5px solid #111;
     background-image: url(../images/banner.jpg);
     background-size: contain;
-    min-width: 1024px;
 }
 
 .header .topchar {

@@ -17,17 +17,18 @@ a:link, a:visited, a:hover, a:active {
 }
 
 /* メイン */
-.wrapper {
+.main_text {
     background-image: url(../images/ジバニャン.jpg);
     background-size: contain;
+    height: 50vw;
 }
-/* wrapperいらん！ */
+
 .main_text {
-    padding: 400px;
+    padding: 30% 0;
 }
 
 .main_text p {
-    font-size: 50px;
+    font-size: 350%;
     margin: 0 20px;
     font-weight: bold;
     text-shadow: 1px 1px #000, -1px 1px #000,
@@ -37,7 +38,6 @@ a:link, a:visited, a:hover, a:active {
 
 /* フッター */
 .foot {
-    margin-top: 50px;
     background-color: #000;
 }
 
