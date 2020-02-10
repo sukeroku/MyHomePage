@@ -17,22 +17,18 @@ a:link, a:visited, a:hover, a:active {
 }
 
 /* メイン */
+main .kouji {
+    width: 100%;
+}
+
 main .kou2 {
     display: none;
 }
 
-img {
-    margin-top: 100px;
-    margin-bottom: -338px;
-}
-
 /* フッター */
 .foot {
-    padding: 1px;
-    margin-top: 300px;
-    position: relative;
-    z-index: 1;
-    margin-bottom: -1px;
+    height: 12vw;
+    width: 100%;
     background-color: #000;
 }
 

@@ -1,6 +1,6 @@
 /* ヘッダー */
 .header{
-    padding: 25px 15px 0;
+    width: 100%;
     border-bottom: 5px solid #111;
     background-image: url(../images/banner.jpg);
     background-size: contain;
